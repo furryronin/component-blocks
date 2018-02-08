@@ -17,7 +17,7 @@
   "scripts": {
     "scss-dev": "node-sass --output-style --indent-type tab --indent-width 4 -o dev/css dev/scss",
     "scss-dist": "node-sass --output-style --indent-type tab --indent-width 4 -o dist/css dev/scss",
-    "watch:css": "onchange 'dev/scss/*.scss' -v -- npm run scss-dev"  
+    "watch:css": "onchange 'dev/scss/*.scss' -v -- npm run scss-dev"
   },
   "devDependencies": {
     "autoprefixer": "^7.1.6",
