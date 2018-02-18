@@ -58,9 +58,9 @@
 				-moz-border-radius: 0 !important;
 				-webkit-border-radius: 0 !important; }
 
-.team-1.component-block .fdb-box {
+.team-1.component-block .cb-box {
 				padding: 0; }
-				.team-1.component-block .fdb-box .content {
+				.team-1.component-block .cb-box .content {
 								padding: 20px; }
 
 .team-2.component-block img {
@@ -90,13 +90,13 @@
 				background-position: center;
 				overflow: hidden;
 				background-color: #FFFFFF; }
-				.component-block.fdb-viewport {
+				.component-block.cb-viewport {
 								min-height: calc(100% - 2 * 100px); }
-								.component-block.fdb-viewport .container {
+								.component-block.cb-viewport .container {
 												min-height: calc(100% - 2 * 100px); }
-				.component-block.fdb-image-bg {
+				.component-block.cb-image-bg {
 								color: #f2f2f2; }
-				.component-block .fdb-box {
+				.component-block .cb-box {
 								background: #FFFFFF;
 								color: #444444;
 								padding: 60px 40px;
@@ -107,7 +107,7 @@
 								-moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
 								box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
 								overflow: hidden; }
-				.component-block .fdb-touch {
+				.component-block .cb-touch {
 								border-top: solid 5px #528bff; }
 				.component-block h1, .component-block .text-h1 {
 								font-size: 2.75rem;
@@ -173,10 +173,10 @@
 								.component-block .col-fill-right + div {
 												position: relative;
 												z-index: 2; }
-				.component-block img.fdb-icon {
+				.component-block img.cb-icon {
 								width: auto;
 								width: 60px; }
-				.component-block img.fdb-icon-round {
+				.component-block img.cb-icon-round {
 								width: auto;
 								width: 60px;
 								border-radius: 60px;

@@ -17,7 +17,7 @@
   overflow: hidden;
   background-color: $white;
 
-  &.fdb-viewport {
+  &.cb-viewport {
     min-height: calc(100% - 2 * #{$block-padding});
 
     .container {
@@ -25,11 +25,11 @@
     }
   }
 
-  &.fdb-image-bg {
+  &.cb-image-bg {
     color: mix($black, $white, 5%);
   }
 
-  .fdb-box {
+  .cb-box {
     background: $white;
     color: $font-color;
     padding: 60px 40px;
@@ -38,7 +38,7 @@
     overflow: hidden;
   }
 
-  .fdb-touch {
+  .cb-touch {
     border-top: solid 5px $primary-color;
   }
 
@@ -100,12 +100,12 @@
     }
   }
 
-  img.fdb-icon {
+  img.cb-icon {
     width: auto;
     width: 60px;
   }
 
-  img.fdb-icon-round {
+  img.cb-icon-round {
     width: auto;
     width: 60px;
     @include border-radius(60px);
